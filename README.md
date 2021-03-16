@@ -11,6 +11,7 @@
     - model
 ```
 (you can download data from this link https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz)
+
 3. cd into src and run commnd 
 ```
 python main.py
