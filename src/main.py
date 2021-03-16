@@ -190,8 +190,6 @@ test_loss = test_running_loss/len(testloader.dataset)
 test_accuracy = 100. * test_running_correct/len(testloader.dataset)
     
 print(f'Test Loss: {test_loss:.4f}, Test Acc: {test_accuracy:.2f}')
-np.save('../result/VGG16output', predict)
-np.save('../result/VGG16target', answer)
 
 ## Calculate precision and recall for class 0 (airplane), 3 (cat), and 8 (ship)
 calculatePrecisionRecall(predict,answer)
